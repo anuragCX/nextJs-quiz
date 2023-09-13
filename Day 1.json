@@ -1,0 +1,502 @@
+[
+  {
+    "question": "What is Next.js primarily used for?",
+    "options": [
+      "Building mobile applications.",
+      "Building full-stack web applications.",
+      "Database management.",
+      "Server monitoring."
+    ],
+    "answer": "Building full-stack web applications."
+  },
+  {
+    "question": "Which rendering method is NOT mentioned as a feature of Next.js?",
+    "options": [
+      "Client-side Rendering",
+      "Server-side Rendering",
+      "Static Rendering",
+      "Dynamic Rendering"
+    ],
+    "answer": "Dynamic Rendering"
+  },
+  {
+    "question": "What does Next.js use for routing?",
+    "options": [
+      "A database-based router.",
+      "A file-system based router.",
+      "A cloud-based router.",
+      "A network-based router."
+    ],
+    "answer": "A file-system based router."
+  },
+  {
+    "question": "Which of the following is NOT a styling method supported by Next.js?",
+    "options": [
+      "CSS Modules",
+      "Tailwind CSS",
+      "CSS-in-JS",
+      "CSS-in-PHP"
+    ],
+    "answer": "CSS-in-PHP"
+  },
+  {
+    "question": "Which feature of Next.js helps in improving application's Core Web Vitals and User Experience?",
+    "options": [
+      "Data Fetching",
+      "TypeScript",
+      "Optimizations",
+      "Routing"
+    ],
+    "answer": "Optimizations"
+  },
+  {
+    "question": "How many different routers does Next.js have?",
+    "options": [
+      "One",
+      "Two",
+      "Three",
+      "Four"
+    ],
+    "answer": "Two"
+  },
+  {
+    "question": "Which of the following is NOT a router in Next.js?",
+    "options": [
+      "App Router",
+      "Pages Router",
+      "Components Router",
+      "Modules Router"
+    ],
+    "answer": "Modules Router"
+  },
+  {
+    "question": "What is the recommended knowledge to get the most out of Next.js docs?",
+    "options": [
+      "Advanced JavaScript and PHP",
+      "Basic understanding of HTML, CSS, and React",
+      "Deep knowledge of databases",
+      "Proficiency in Python and Java"
+    ],
+    "answer": "Basic understanding of HTML, CSS, and React"
+  },
+  {
+    "question": "For optimal accessibility with a screen reader for the docs, which combination is recommended?",
+    "options": [
+      "Chrome and NVDA",
+      "Firefox and NVDA",
+      "Edge and VoiceOver",
+      "Safari and ChromeVox"
+    ],
+    "answer": "Firefox and NVDA"
+  },
+  {
+    "question": "Where can you ask questions related to Next.js?",
+    "options": [
+      "Only on GitHub Discussions",
+      "Only on Discord",
+      "Only on Twitter",
+      "GitHub Discussions, Discord, Twitter, and Reddit"
+    ],
+    "answer": "GitHub Discussions, Discord, Twitter, and Reddit"
+  },
+  {
+    "question": "Which version of Node.js is required for Next.js?",
+    "options": [
+      "Node.js 12.0 or later",
+      "Node.js 14.0 or later",
+      "Node.js 15.0 or later",
+      "Node.js 16.14 or later"
+    ],
+    "answer": "Node.js 16.14 or later"
+  },
+  {
+    "question": "Which command is recommended to start a new Next.js app?",
+    "options": [
+      "npm create-next-app",
+      "npm init-next-app",
+      "npx create-next-app@latest",
+      "yarn create-next-app"
+    ],
+    "answer": "npx create-next-app@latest"
+  },
+  {
+    "question": "What does the `create-next-app` command prompt you for?",
+    "options": [
+      "Your project's database configuration",
+      "Your project's cloud provider",
+      "Whether you'd like to use TypeScript, ESLint, and other configurations",
+      "Your project's deployment strategy"
+    ],
+    "answer": "Whether you'd like to use TypeScript, ESLint, and other configurations"
+  },
+  {
+    "question": "Which of the following is NOT a script added for a manual Next.js installation?",
+    "options": [
+      "\"dev\": \"next dev\"",
+      "\"deploy\": \"next deploy\"",
+      "\"build\": \"next build\"",
+      "\"start\": \"next start\""
+    ],
+    "answer": "\"deploy\": \"next deploy\""
+  },
+  {
+    "question": "What does the `app/page.tsx` file represent in the App Router setup?",
+    "options": [
+      "The global layout of the application",
+      "The error page of the application",
+      "The home page of the application",
+      "The custom server configuration"
+    ],
+    "answer": "The home page of the application"
+  },
+  {
+    "question": "Where should static assets like images and fonts be stored in a Next.js project?",
+    "options": [
+      "In the `assets/` directory",
+      "In the `static/` directory",
+      "In the `public/` directory",
+      "In the `files/` directory"
+    ],
+    "answer": "In the `public/` directory"
+  },
+  {
+    "question": "Which command starts the development server for Next.js?",
+    "options": [
+      "npm run start",
+      "npm run build",
+      "npm run deploy",
+      "npm run dev"
+    ],
+    "answer": "npm run dev"
+  },
+  {
+    "question": "Which router allows you to use React's latest features in Next.js?",
+    "options": [
+      "Pages Router",
+      "App Router",
+      "Static Router",
+      "Dynamic Router"
+    ],
+    "answer": "App Router"
+  },
+  {
+    "question": "Which file defines the global layout in the Pages Router setup?",
+    "options": [
+      "pages/_app.tsx",
+      "pages/_document.tsx",
+      "pages/_layout.tsx",
+      "pages/_config.tsx"
+    ],
+    "answer": "pages/_app.tsx"
+  },
+  {
+    "question": "Which folder is optional when setting up a Next.js project?",
+    "options": [
+      "app/",
+      "pages/",
+      "public/",
+      "components/"
+    ],
+    "answer": "pages/"
+  },
+   {
+    "question": "Which top-level folder in a Next.js project is used for static assets?",
+    "options": [
+      "pages",
+      "src",
+      "app",
+      "public"
+    ],
+    "answer": "public"
+  },
+  {
+    "question": "Which file in a Next.js project is used for configuration?",
+    "options": [
+      "next.config.js",
+      "next-setup.js",
+      "config.next.js",
+      "setup.next.js"
+    ],
+    "answer": "next.config.js"
+  },
+  {
+    "question": "Which special file in the `pages` directory is used for custom error handling?",
+    "options": [
+      "_app.js",
+      "_document.js",
+      "_error.js",
+      "error.js"
+    ],
+    "answer": "_error.js"
+  },
+  {
+    "question": "Which file convention is used for the home page in Next.js?",
+    "options": [
+      "home.js",
+      "index.js",
+      "main.js",
+      "root.js"
+    ],
+    "answer": "index.js"
+  },
+  {
+    "question": "How are dynamic routes represented in Next.js?",
+    "options": [
+      "[file].js",
+      "{file}.js",
+      "<file>.js",
+      "(file).js"
+    ],
+    "answer": "[file].js"
+  },
+  {
+    "question": "Which file in a Next.js project is used for environment variables?",
+    "options": [
+      ".env",
+      "env.config.js",
+      "variables.env",
+      "config.env.js"
+    ],
+    "answer": ".env"
+  },
+  {
+    "question": "Which of the following is NOT a special file in the `pages` directory?",
+    "options": [
+      "_app.js",
+      "_layout.js",
+      "_document.js",
+      "_error.js"
+    ],
+    "answer": "_layout.js"
+  },
+  {
+    "question": "What does the `[[...file]].js` convention represent in Next.js?",
+    "options": [
+      "Dynamic route segment",
+      "Catch-all route segment",
+      "Optional catch-all route segment",
+      "Nested dynamic route segment"
+    ],
+    "answer": "Optional catch-all route segment"
+  },
+  {
+    "question": "Which file is used for customizing the App in Next.js?",
+    "options": [
+      "_app.js",
+      "_config.js",
+      "_setup.js",
+      "_main.js"
+    ],
+    "answer": "_app.js"
+  },
+  {
+    "question": "Which file is used to define the global layout in the App Router setup?",
+    "options": [
+      "layout.js",
+      "global.js",
+      "app-layout.js",
+      "main-layout.js"
+    ],
+    "answer": "layout.js"
+  },
+  {
+    "question": "What does Next.js use for routing?",
+    "options": [
+      "A database-based router.",
+      "A file-system based router.",
+      "A cloud-based router.",
+      "A network-based router."
+    ],
+    "answer": "A file-system based router."
+  },
+  {
+    "question": "How can you create a nested route in Next.js?",
+    "options": [
+      "By using special route annotations.",
+      "By nesting folders inside each other.",
+      "By defining nested paths in a configuration file.",
+      "By using a special `NestedRoute` component."
+    ],
+    "answer": "By nesting folders inside each other."
+  },
+  {
+    "question": "What is the purpose of a special `page.js` file in Next.js?",
+    "options": [
+      "To define global styles for the application.",
+      "To make route segments publicly accessible.",
+      "To define the layout of the application.",
+      "To handle errors in the application."
+    ],
+    "answer": "To make route segments publicly accessible."
+  },
+  {
+    "question": "Which file extensions can be used for special files in Next.js?",
+    "options": [
+      ".js, .jsx, or .tsx",
+      ".next, .page, or .layout",
+      ".route, .js, or .page",
+      ".tsx, .ts, or .config"
+    ],
+    "answer": ".js, .jsx, or .tsx"
+  },
+  {
+    "question": "How can you create UI for a specific route segment in Next.js?",
+    "options": [
+      "By using special UI components.",
+      "By defining UI in a configuration file.",
+      "By using special file conventions.",
+      "By importing UI modules."
+    ],
+    "answer": "By using special file conventions."
+  },
+  {
+    "question": "Before diving into defining routes, which page is recommended to be read?",
+    "options": [
+      "Routing Configuration",
+      "Routing Fundamentals",
+      "Route Optimization",
+      "Route Deployment"
+    ],
+    "answer": "Routing Fundamentals"
+  },
+  {
+    "question": "In the context of Next.js routing, what does each folder represent?",
+    "options": [
+      "A component.",
+      "A stylesheet.",
+      "A route segment mapping to a URL segment.",
+      "A configuration setting."
+    ],
+    "answer": "A route segment mapping to a URL segment."
+  },
+  {
+    "question": "If the `/dashboard/analytics` URL path does not have a corresponding `page.js` file, what does it imply?",
+    "options": [
+      "The path is broken and will throw an error.",
+      "The path is redirected to the home page.",
+      "The path is not publicly accessible.",
+      "The path is an alias to another route."
+    ],
+    "answer": "The path is not publicly accessible."
+  },
+  {
+    "question": "Which of the following is NOT mentioned as a common convention for creating UI for route segments?",
+    "options": [
+      "pages",
+      "layouts",
+      "components",
+      "modules"
+    ],
+    "answer": "modules"
+  },
+  {
+    "question": "To create a basic page in Next.js, where should you add a `page.js` file?",
+    "options": [
+      "Inside the `routes` directory.",
+      "Inside the `public` directory.",
+      "Inside the `app` directory.",
+      "Inside the `components` directory."
+    ],
+    "answer": "Inside the `app` directory."
+  },
+  {
+    "question": "What is the primary purpose of a `page.js` file in Next.js?",
+    "options": [
+      "To define global styles.",
+      "To set up server-side rendering.",
+      "To make a route segment publicly accessible.",
+      "To configure the Next.js application."
+    ],
+    "answer": "To make a route segment publicly accessible."
+  },
+  {
+    "question": "Which of the following is NOT a characteristic of layouts in Next.js?",
+    "options": [
+      "They can be nested.",
+      "They preserve state on navigation.",
+      "They re-render on every page navigation.",
+      "They remain interactive on navigation."
+    ],
+    "answer": "They re-render on every page navigation."
+  },
+  {
+    "question": "Which layout must contain the `<html>` and `<body>` tags?",
+    "options": [
+      "Dashboard Layout",
+      "Root Layout",
+      "Page Layout",
+      "Template Layout"
+    ],
+    "answer": "Root Layout"
+  },
+  {
+    "question": "What differentiates templates from layouts in Next.js?",
+    "options": [
+      "Templates are always static.",
+      "Templates create a new instance for each of their children on navigation.",
+      "Templates cannot be nested.",
+      "Templates can contain `<html>` and `<body>` tags."
+    ],
+    "answer": "Templates create a new instance for each of their children on navigation."
+  },
+  {
+    "question": "Where should you define metadata such as the title for a page in Next.js?",
+    "options": [
+      "Inside the `<head>` tag in the layout.",
+      "Using the built-in SEO support.",
+      "In the `next.config.js` file.",
+      "In the `_document.js` file."
+    ],
+    "answer": "Using the built-in SEO support."
+  },
+  {
+    "question": "Which of the following is NOT a valid file extension for defining pages in Next.js?",
+    "options": [
+      ".js",
+      ".jsx",
+      ".page",
+      ".tsx"
+    ],
+    "answer": ".page"
+  },
+  {
+    "question": "What is the primary purpose of a `layout.js` file in Next.js?",
+    "options": [
+      "To define database connections.",
+      "To set up API routes.",
+      "To define UI shared between multiple pages.",
+      "To configure build settings."
+    ],
+    "answer": "To define UI shared between multiple pages."
+  },
+  {
+    "question": "In terms of nesting, where is the `template.js` rendered?",
+    "options": [
+      "Between a layout and its children.",
+      "Before the root layout.",
+      "After all other layouts.",
+      "Only inside pages, not layouts."
+    ],
+    "answer": "Between a layout and its children."
+  },
+  {
+    "question": "Which of the following is a characteristic of the Root Layout in Next.js?",
+    "options": [
+      "It can be set to a Client Component.",
+      "It is optional and can be omitted.",
+      "It must define `<html>` and `<body>` tags.",
+      "It is used for error handling."
+    ],
+    "answer": "It must define `<html>` and `<body>` tags."
+  },
+  {
+    "question": "How can you modify the `<head>` HTML elements in Next.js?",
+    "options": [
+      "By manually adding them to root layouts.",
+      "Using the Metadata API.",
+      "By importing them from a third-party library.",
+      "By defining them in the `next.config.js` file."
+    ],
+    "answer": "Using the Metadata API."
+  }
+]
